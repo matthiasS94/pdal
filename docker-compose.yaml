@@ -4,7 +4,7 @@ services:
     build: .
     image: ubuntu:22.04
     container_name: pdal
-    working_dir: /app
+    working_dir: /pointcloud
     environment:
       - PYTHONDONTWRITEBYTECODE=1
       - PYTHONBUFFERED=1
